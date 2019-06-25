@@ -163,6 +163,9 @@ The component takes 3 compulsory props - `items`, `uniqueKey` and `onSelectedIte
 | textInputProps | No | (Object) Properties for the Text Input. Pass any property that is required on the text input |
 | uniqueKey      | Yes      | (String) Unique identifier that is part of each item's properties. Used internally as means of identifying each item (Check sample below) |
 |selectedItems | No      | (Array, control prop) List of selected items keys . JavaScript Array of strings, that can be instantiated with the component |
+|noResultText | No | (String) Text for when there is no results
+|onNoResultsPressed | No | (Function) Function for when you click on the no results text
+|noResultStyle | No | (Style) Style the text for when there are no results
 
 ## Note
 
